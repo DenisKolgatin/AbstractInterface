@@ -1,12 +1,8 @@
 package accounts;
 
 public abstract class Account {
-    protected long balance;
 
-    public Account() {
-
-    }
-    int numAcc; //Номер аккаунта
+    public Account() {}
 
     abstract boolean add(long amount);
     abstract boolean pay(long amount);
